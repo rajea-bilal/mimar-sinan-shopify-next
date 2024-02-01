@@ -2,15 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
+.body {
+  background: #edebe4;
+}
+
+/* button main */
+
+.btnMain {
+  background: #d07547;
+}
+.nav {
+  background: #636b55;
+  color: #686764;
+  color: #edebe4;
+}
 .logoBox {
-  /* border: 1px solid red; */
+  border-radius: 0.4rem;
   width: 5rem;
   height: 4rem;
 }
 
 .logoBox img {
-  border-radius: 0.4rem;
+  border-radius: 0.2rem;
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.searchInput {
+  background: #edebe4;
+  color: #686764;
+}
+
+/* product price */
+
+.priceLabel {
+  color: #edebe4;
+  /* border: 1px solid red; */
+  background: #d07547;
+}
+
+/* single product page */
+.productDescription {
+  color: #686764;
+  line-height: 1.6;
+}
+
+.productPagePrice {
+  background: red;
+}
+/* footer */
+.footer {
+  background: #828872;
+  color: #edebe4;
+}
+
+.footer-website-title {
+  /* border: 1px solid red; */
+  display: block;
+  margin-top: 1rem;
 }

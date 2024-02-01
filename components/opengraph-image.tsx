@@ -32,7 +32,7 @@ export default async function OpengraphImage(props?: Props): Promise<ImageRespon
             res.arrayBuffer()
           ),
           style: 'normal',
-          weight: 700
+          weight: 500
         }
       ]
     }
